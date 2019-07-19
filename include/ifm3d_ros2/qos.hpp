@@ -56,6 +56,8 @@ namespace ifm3d_ros2
     { }
   };
 
+  constexpr rmw_qos_profile_t LatchedQoS::qos_latched;
+
   /**
    * Specializes the `SensorDataQoS` in an attempt to minimize latency.
    */
